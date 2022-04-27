@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,53 +8,68 @@
     <link rel="stylesheet" href="style.css">
     <title>Lojinha</title>
 </head>
+
 <body>
     <header>
-    <h1>Papelaria Virtual</h1>
+        <h1>Papelaria Virtual</h1>
+    </header>
     <nav>
         <a href="./index.html">Home</a>
         <a href="./quem-somos.html">Quem Somos</a>
         <a href="./contato.html">Contato</a>
         <a href="./fique-por-dentro.html">Fique por dentro</a>
     </nav>
-    </header>
 
     <section class="banner">
-        <img src="./imagens/cadernos.jpg"/>
+        <img src="./imagens/cadernos.jpg" />
     </section>
 
     <h2>Nossos destaques</h2>
-    <section class="conteiner">
-        <section>
-            <img src="./imagens/caderno-cinza.jpg" alt="">
+    <section class="conteiner-cards">
+        <section class="card">
+            <img class="capa-card" src="./imagens/caderno-cinza.jpg" alt="">
             <h3>Caderno Cinza</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem adipisci fugiat corrupti natus architecto libero laboriosam totam nemo nostrum, similique officiis sed nesciunt quod earum suscipit dolorem necessitatibus magni fuga!</p>
+            <span>R$ 9,99</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem adipisci fugiat corrupti natus
+                architecto libero laboriosam totam nemo nostrum, similique officiis sed nesciunt quod earum suscipit
+                dolorem necessitatibus magni fuga!</p>
         </section>
-        <section>
-            <img src="./imagens/caneta.jpg" alt="">
+        <section class="card">
+            <img class="capa-card" src="./imagens/caneta.jpg" alt="">
             <h3>Caneta Azul</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem adipisci fugiat corrupti natus architecto libero laboriosam totam nemo nostrum, similique officiis sed nesciunt quod earum suscipit dolorem necessitatibus magni fuga!</p>
+            <span>R$ 0,99</span>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem adipisci fugiat corrupti natus
+                architecto libero laboriosam totam nemo nostrum, similique officiis sed nesciunt quod earum suscipit
+                dolorem necessitatibus magni fuga!</p>
         </section>
-        <section>
-            <img src="./imagens/mochila.jpg" alt="">
+        <section class="card">
+            <img class="capa-card mochila" src="./imagens/mochila.jpg" alt="">
             <h3>Mochila de Couro</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem adipisci fugiat corrupti natus architecto libero laboriosam totam nemo nostrum, similique officiis sed nesciunt quod earum suscipit dolorem necessitatibus magni fuga!</p>
+            <span>R$ 99,99</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem adipisci fugiat corrupti natus
+                architecto libero laboriosam totam nemo nostrum, similique officiis sed nesciunt quod earum suscipit
+                dolorem necessitatibus magni fuga!</p>
         </section>
     </section>
     <footer>
-        <section>
-<ul>
-    <li><a href=""></a>whatsapp</li>
-    <li><a href=""></a>instagram</li>
-    <li><a href=""></a>pinterest</li>
-    <li><a href=""></a>twitter</li>
-</ul>
-</section>
-<section>
-    <h4>Receba as nossas novidades!</h4>
-    <input type="email" name="" id="">
-    <button>Cadastrar</button>
-</section>
+        <section class="social">
+            <h4>Contato:</h4>
+            <ul>
+                <li><a href=""><img src="./imagens/logo_whatsapp.svg" alt=""> Whatsapp</a></li>
+                <li><a href=""><img src="./imagens/logo_instagram.svg" alt=""> Instagram</a></li>
+                <li><a href=""><img src="./imagens/logo_pinterest.svg" alt=""> Pinterest</a></li>
+                <li><a href=""><img src="./imagens/logo_twitter.svg" alt=""> Twitter</a></li>
+            </ul>
+        </section>
+        <section class="newsletter">
+            <div>
+            <h4>Receba as nossas novidades!</h4>
+            <input type="email" name="email" id="email" placeholder="Digite o seu email">
+            <button>Cadastrar</button>
+        </div>
+        </section>
     </footer>
 </body>
+
 </html>
